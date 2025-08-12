@@ -27,7 +27,8 @@ phases:
       # name: version
       # name: version
     commands:
-       - sudo apt-get install maven -y
+       - sudo yum-get update
+       - sudo yum-get install maven -y
        - mvn --version
   #pre_build:
     #commands:
