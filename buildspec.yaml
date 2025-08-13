@@ -41,7 +41,7 @@ phases:
   post_build:
     commands:
       - echo "Transfer the artifact..."
-      - aws s3 cp target/*.jar s3://gokul-401646244080/app.jar
+      - aws s3 cp target/*.jar s3://gokul-s3-bucket-ap-south/app.jar
 #reports:
   #report-name-or-arn:
     #files:
